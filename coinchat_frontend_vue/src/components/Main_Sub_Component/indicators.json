@@ -1,0 +1,2414 @@
+[
+  {
+    "en_name": "Accumulation/Distribution",
+    "ko_name": "축적/분배",
+    "alias": "ACCD",
+    "inputs": false,
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "ADR",
+    "ko_name": "ADR",
+    "alias": "studyADR",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        }
+      ],
+      "parameters": {
+        "length": 9
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Aroon",
+    "ko_name": "아룬",
+    "alias": "AROON",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        }
+      ],
+      "parameters": {
+        "length": 14
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Average True Range",
+    "ko_name": "평균 실제 범위",
+    "alias": "ATR",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "smoothing",
+          "ko_parameter_name": "스무딩"
+        }
+      ],
+      "parameters": {
+        "length": 14,
+        "smoothing": "RMA"
+      },
+      "smoothing_available": [
+        {
+          "value": "RMA",
+          "text": "RMA"
+        },
+        {
+          "value": "SMA",
+          "text": "SMA"
+        },
+        {
+          "value": "EMA",
+          "text": "EMA"
+        },
+        {
+          "value": "WMA",
+          "text": "WMA"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Awesome Oscillator",
+    "ko_name": "굉장한 오실레이터",
+    "alias": "AwesomeOscillator",
+    "inputs": false,
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Bollinger Bands",
+    "ko_name": "볼린저 밴드",
+    "alias": "BB",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        },
+        {
+          "en_parameter_name": "stddev",
+          "ko_parameter_name": "표준편차"
+        }
+      ],
+      "parameters": {
+        "length": 20,
+        "source": "close",
+        "stddev": 2
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Bollinger Bands %B",
+    "ko_name": "볼린저 밴드 %B",
+    "alias": "BollingerBandsR",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        },
+        {
+          "en_parameter_name": "stddev",
+          "ko_parameter_name": "표준편차"
+        }
+      ],
+      "parameters": {
+        "length": 20,
+        "source": "close",
+        "stddev": 2
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Bollinger Bands Width",
+    "ko_name": "볼린저 밴드 폭",
+    "alias": "BollingerBandsWidth",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        },
+        {
+          "en_parameter_name": "stddev",
+          "ko_parameter_name": "표준편차"
+        }
+      ],
+      "parameters": {
+        "length": 20,
+        "source": "close",
+        "stddev": 2
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Chaikin Money Flow",
+    "ko_name": "체이킨 머니 플로우",
+    "alias": "CMF",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        }
+      ],
+      "parameters": {
+        "length": 20
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Chaikin Oscillator",
+    "ko_name": "체이킨 오실레이터",
+    "alias": "ChaikinOscillator",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "fast length",
+          "ko_parameter_name": "fast 길이"
+        },
+        {
+          "en_parameter_name": "slow length",
+          "ko_parameter_name": "slow 길이"
+        }
+      ],
+      "parameters": {
+        "fast length": 3,
+        "slow length": 10
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Chande Momentum Oscillator",
+    "ko_name": "샹드 모멘텀 오실레이터",
+    "alias": "chandeMO",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "price",
+          "ko_parameter_name": "가격"
+        }
+      ],
+      "parameters": {
+        "length": 9,
+        "price": "close"
+      },
+      "price_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Choppiness Index",
+    "ko_name": "고르지 못한 지수",
+    "alias": "ChoppinessIndex",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        }
+      ],
+      "parameters": {
+        "length": 14
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Commodity Channel Index",
+    "ko_name": "상품 채널 인덱스",
+    "alias": "CCI",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        }
+      ],
+      "parameters": {
+        "length": 20,
+        "source": "close"
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "ConnorsRSI",
+    "ko_name": "코너스RSI",
+    "alias": "CRSI",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "rsi length",
+          "ko_parameter_name": "rsi 길이"
+        },
+        {
+          "en_parameter_name": "updown length",
+          "ko_parameter_name": "updown 길이"
+        },
+        {
+          "en_parameter_name": "roc length",
+          "ko_parameter_name": "roc 길이"
+        }
+      ],
+      "parameters": {
+        "rsi length": 3,
+        "updown length": 2,
+        "roc length": 100
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Correlation Coefficient",
+    "ko_name": "상관 계수",
+    "alias": "CorrelationCoefficient",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        }
+      ],
+      "parameters": {
+        "length": 20,
+        "source": "close"
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Detrended Price Oscillator",
+    "ko_name": "디트렌드 프라이스 오실레이터",
+    "alias": "DetrendedPriceOscillator",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "period",
+          "ko_parameter_name": "기간"
+        }
+      ],
+      "parameters": {
+        "period": 21
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Directional Movement",
+    "ko_name": "방향 이동",
+    "alias": "DM",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "adx smoothing",
+          "ko_parameter_name": "adx 스무딩"
+        },
+        {
+          "en_parameter_name": "di length",
+          "ko_parameter_name": "di 길이"
+        }
+      ],
+      "parameters": {
+        "adx smoothing": 14,
+        "di length": 14
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Donchian Channels",
+    "ko_name": "돈치안 채널",
+    "alias": "DONCH",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        }
+      ],
+      "parameters": {
+        "length": 20
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Double EMA",
+    "ko_name": "더블 EMA",
+    "alias": "DoubleEMA",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        }
+      ],
+      "parameters": {
+        "length": 9
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Ease Of Movement",
+    "ko_name": "이동의 용이성",
+    "alias": "EaseOfMovement",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "divisor",
+          "ko_parameter_name": "디바이저"
+        }
+      ],
+      "parameters": {
+        "length": 14,
+        "divisor": 10000
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Elder's Force Index",
+    "ko_name": "장로의 힘 지수",
+    "alias": "EFI",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        }
+      ],
+      "parameters": {
+        "length": 13
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Envelope",
+    "ko_name": "콘돔",
+    "alias": "ENV",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "percent",
+          "ko_parameter_name": "퍼센트"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        },
+        {
+          "en_parameter_name": "exponential",
+          "ko_parameter_name": "익스포넨셜"
+        }
+      ],
+      "parameters": {
+        "length": 20,
+        "percent": 10,
+        "source": "close",
+        "exponential": false
+      },
+      "exponential_available": [
+        {
+          "value": true,
+          "text": "True (참)"
+        },
+        {
+          "value": false,
+          "text": "False (거짓)"
+        }
+      ],
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Fisher Transform",
+    "ko_name": "피셔 변환",
+    "alias": "FisherTransform",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        }
+      ],
+      "parameters": {
+        "length": 9
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Historical Volatility",
+    "ko_name": "역사적 변동성",
+    "alias": "HV",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        }
+      ],
+      "parameters": {
+        "length": 10
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Hull Moving Average",
+    "ko_name": "선체 이동 평균",
+    "alias": "hullMA",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "price",
+          "ko_parameter_name": "가격"
+        }
+      ],
+      "parameters": {
+        "length": 9,
+        "price": "close"
+      },
+      "price_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Ichimoku Cloud",
+    "ko_name": "이치모쿠 클라우드",
+    "alias": "IchimokuCloud",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "conversion line periods",
+          "ko_parameter_name": "conversion line periods"
+        },
+        {
+          "en_parameter_name": "base line periods",
+          "ko_parameter_name": "base line periods"
+        },
+        {
+          "en_parameter_name": "lagging span 2 periods",
+          "ko_parameter_name": "lagging span 2 periods"
+        },
+        {
+          "en_parameter_name": "displacement",
+          "ko_parameter_name": "displacement"
+        }
+      ],
+      "parameters": {
+        "conversion line periods": 9,
+        "base line periods": 26,
+        "lagging span 2 periods": 52,
+        "displacement": 26
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Keltner Channels",
+    "ko_name": "켈트너 채널",
+    "alias": "KLTNR",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "multiplier",
+          "ko_parameter_name": "멀티플라이어"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        },
+        {
+          "en_parameter_name": "exponential",
+          "ko_parameter_name": "익스포넨셜"
+        },
+        {
+          "en_parameter_name": "bands style",
+          "ko_parameter_name": "밴드 스타일"
+        }
+      ],
+      "parameters": {
+        "length": 20,
+        "multiplier": 1,
+        "source": "close",
+        "exponential": true,
+        "bands style": "true range"
+      },
+      "exponential_available": [
+        {
+          "value": true,
+          "text": "True (참)"
+        },
+        {
+          "value": false,
+          "text": "False (거짓)"
+        }
+      ],
+      "bands style_available": [
+        {
+          "value": "range",
+          "text": "range (범위)"
+        },
+        {
+          "value": "true range",
+          "text": "true range (트루 레인지)"
+        }
+      ],
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Know Sure Thing",
+    "ko_name": "확실한 것을 알고",
+    "alias": "KST",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "roclen1",
+          "ko_parameter_name": "roc 길이1"
+        },
+        {
+          "en_parameter_name": "roclen2",
+          "ko_parameter_name": "roc 길이2"
+        },
+        {
+          "en_parameter_name": "roclen3",
+          "ko_parameter_name": "roc 길이3"
+        },
+        {
+          "en_parameter_name": "roclen4",
+          "ko_parameter_name": "roc 길이4"
+        },
+        {
+          "en_parameter_name": "smalen1",
+          "ko_parameter_name": "sma 길이1"
+        },
+        {
+          "en_parameter_name": "smalen2",
+          "ko_parameter_name": "sma 길이2"
+        },
+        {
+          "en_parameter_name": "smalen3",
+          "ko_parameter_name": "sma 길이3"
+        },
+        {
+          "en_parameter_name": "smalen4",
+          "ko_parameter_name": "sma 길이4"
+        },
+        {
+          "en_parameter_name": "siglen",
+          "ko_parameter_name": "sig 길이"
+        }
+      ],
+      "parameters": {
+        "roclen1": 10,
+        "roclen2": 15,
+        "roclen3": 20,
+        "roclen4": 30,
+        "smalen1": 10,
+        "smalen2": 10,
+        "smalen3": 10,
+        "smalen4": 15,
+        "siglen": 9
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Linear Regression",
+    "ko_name": "선형 회귀",
+    "alias": "LinearRegression",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "upper deviation",
+          "ko_parameter_name": "upper 편차"
+        },
+        {
+          "en_parameter_name": "lower deviation",
+          "ko_parameter_name": "lower 편차"
+        },
+        {
+          "en_parameter_name": "use upper deviation",
+          "ko_parameter_name": "upper 편차 사용"
+        },
+        {
+          "en_parameter_name": "use lower deviation",
+          "ko_parameter_name": "lower 편차 사용"
+        },
+        {
+          "en_parameter_name": "count",
+          "ko_parameter_name": "카운트"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        }
+      ],
+      "parameters": {
+        "upper deviation": 2,
+        "lower deviation": -2,
+        "use upper deviation": true,
+        "use lower deviation": true,
+        "count": 100,
+        "source": "close"
+      },
+      "use upper deviation_available": [
+        {
+          "value": true,
+          "text": "True (참)"
+        },
+        {
+          "value": false,
+          "text": "False (거짓)"
+        }
+      ],
+      "use lower deviation_available": [
+        {
+          "value": true,
+          "text": "True (참)"
+        },
+        {
+          "value": false,
+          "text": "False (거짓)"
+        }
+      ],
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "MACD",
+    "ko_name": "MACD",
+    "alias": "MACD",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "fast length",
+          "ko_parameter_name": "fast 길이"
+        },
+        {
+          "en_parameter_name": "slow length",
+          "ko_parameter_name": "slow 길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        },
+        {
+          "en_parameter_name": "signal smoothing",
+          "ko_parameter_name": "시그널 스무딩"
+        },
+        {
+          "en_parameter_name": "simple ma(oscillator)",
+          "ko_parameter_name": "단순 이평(오실레이터)"
+        },
+        {
+          "en_parameter_name": "simple ma(signal line)",
+          "ko_parameter_name": "단순 이평(시그널 라인)"
+        }
+      ],
+      "parameters": {
+        "fast length": 12,
+        "slow length": 26,
+        "source": "close",
+        "signal smoothing": 9,
+        "simple ma(oscillator)": false,
+        "simple ma(signal line)": false
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ],
+      "simple ma(oscillator)_available": [
+        {
+          "value": true,
+          "text": "True (참)"
+        },
+        {
+          "value": false,
+          "text": "False (거짓)"
+        }
+      ],
+      "simple ma(signal line)_available": [
+        {
+          "value": true,
+          "text": "True (참)"
+        },
+        {
+          "value": false,
+          "text": "False (거짓)"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Momentum",
+    "ko_name": "모멘텀",
+    "alias": "MOM",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        }
+      ],
+      "parameters": {
+        "length": 10,
+        "source": "close"
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Money Flow",
+    "ko_name": "머니 플로우",
+    "alias": "MF",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        }
+      ],
+      "parameters": {
+        "length": 14
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Moon Phases",
+    "ko_name": "문페이즈",
+    "alias": "MoonPhases",
+    "inputs": false,
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Moving Average",
+    "ko_name": "이동 평균",
+    "alias": "MASimple",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        }
+      ],
+      "parameters": {
+        "length": 9,
+        "source": "close"
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Moving Average Exponential",
+    "ko_name": "이동 평균 지수",
+    "alias": "MAExp",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        }
+      ],
+      "parameters": {
+        "length": 9,
+        "source": "close"
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Moving Average Weighted",
+    "ko_name": "이동 평균 가중치",
+    "alias": "MAWeighted",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        }
+      ],
+      "parameters": {
+        "length": 9,
+        "source": "close"
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "On Balance Volume",
+    "ko_name": "균형 거래량",
+    "alias": "OBV",
+    "inputs": false,
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Parabolic SAR",
+    "ko_name": "포물선 SAR",
+    "alias": "PSAR",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "start",
+          "ko_parameter_name": "시작"
+        },
+        {
+          "en_parameter_name": "increment",
+          "ko_parameter_name": "증가"
+        },
+        {
+          "en_parameter_name": "max value",
+          "ko_parameter_name": "최대값"
+        }
+      ],
+      "parameters": {
+        "start": 0.02,
+        "increment": 0.02,
+        "max value": 0.2
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Pivot Points High Low",
+    "ko_name": "피벗 포인트 고/저",
+    "alias": "PivotPointsHighLow",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length high",
+          "ko_parameter_name": "길이 high"
+        },
+        {
+          "en_parameter_name": "length low",
+          "ko_parameter_name": "길이 low"
+        }
+      ],
+      "parameters": {
+        "length high": 10,
+        "length low": 10
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Pivot Points Standard",
+    "ko_name": "피벗 포인트 표준",
+    "alias": "PivotPointsStandard",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "type",
+          "ko_parameter_name": "타입"
+        },
+        {
+          "en_parameter_name": "show historical pivots",
+          "ko_parameter_name": "역사적 피벗 표시"
+        },
+        {
+          "en_parameter_name": "pivots timeframe",
+          "ko_parameter_name": "피벗 타임프레임"
+        },
+        {
+          "en_parameter_name": "number of pivots back",
+          "ko_parameter_name": "number of pivots back"
+        }
+      ],
+      "parameters": {
+        "type": "Traditional",
+        "show historical pivots": true,
+        "pivots timeframe": "auto",
+        "number of pivots back": 15
+      },
+      "type_available": [
+        {
+          "value": "Traditional",
+          "text": "Traditional (전통적인)"
+        },
+        {
+          "value": "Fibonacci",
+          "text": "Fibonacci (피보나치)"
+        },
+        {
+          "value": "Woodie",
+          "text": "Woodie (우디)"
+        },
+        {
+          "value": "Classic",
+          "text": "Classic (클래식)"
+        },
+        {
+          "value": "DM",
+          "text": "DM"
+        },
+        {
+          "value": "Camarilla",
+          "text": "Camarilla (카마릴라)"
+        }
+      ],
+      "show historical pivots_available": [
+        {
+          "value": true,
+          "text": "True (참)"
+        },
+        {
+          "value": false,
+          "text": "False (거짓)"
+        }
+      ],
+      "pivots timeframe_available": [
+        {
+          "value": "Auto",
+          "text": "Auto (자동)"
+        },
+        {
+          "value": "Daily",
+          "text": "Daily (매일)"
+        },
+        {
+          "value": "Weekly",
+          "text": "Weekly (매주)"
+        },
+        {
+          "value": "Monthly",
+          "text": "Monthly (매월)"
+        },
+        {
+          "value": "Yearly",
+          "text": "Yearly (매년)"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Price Oscillator",
+    "ko_name": "가격 오실레이터",
+    "alias": "PriceOsc",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "short length",
+          "ko_parameter_name": "숏 길이"
+        },
+        {
+          "en_parameter_name": "long length",
+          "ko_parameter_name": "롱 길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        },
+        {
+          "en_parameter_name": "exponential",
+          "ko_parameter_name": "익스포넨셜"
+        }
+      ],
+      "parameters": {
+        "short length": 10,
+        "long length": 21,
+        "source": "close",
+        "exponential": false
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ],
+      "exponential_available": [
+        {
+          "value": true,
+          "text": "True (참)"
+        },
+        {
+          "value": false,
+          "text": "False (거짓)"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Price Volume Trend",
+    "ko_name": "가격 거래량 추세",
+    "alias": "PriceVolumeTrend",
+    "inputs": false,
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Rate Of Change",
+    "ko_name": "변화율",
+    "alias": "ROC",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        }
+      ],
+      "parameters": {
+        "length": 9,
+        "source": "close"
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Relative Strength Index",
+    "ko_name": "상대 강도 지수",
+    "alias": "RSI",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        }
+      ],
+      "parameters": {
+        "length": 14,
+        "source": "close"
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Relative Vigor Index",
+    "ko_name": "상대 활력 지수",
+    "alias": "VigorIndex",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        }
+      ],
+      "parameters": {
+        "length": 10
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Relative Volatility Index",
+    "ko_name": "상대 변동성 지수",
+    "alias": "VolatilityIndex",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        }
+      ],
+      "parameters": {
+        "length": 10
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "SMI Ergodic Indicator",
+    "ko_name": "SMI 에르고딕 인디케이터",
+    "alias": "SMIErgodicIndicator",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "long period",
+          "ko_parameter_name": "롱 기간"
+        },
+        {
+          "en_parameter_name": "short period",
+          "ko_parameter_name": "숏 기간"
+        },
+        {
+          "en_parameter_name": "signal line period",
+          "ko_parameter_name": "시그널 라인 기간"
+        }
+      ],
+      "parameters": {
+        "long period": 20,
+        "short period": 5,
+        "signal line period": 5
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "SMI Ergodic Oscillator",
+    "ko_name": "SMI 에르고딕 오실레이터",
+    "alias": "SMIErgodicOscillator",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "long period",
+          "ko_parameter_name": "롱 기간"
+        },
+        {
+          "en_parameter_name": "short period",
+          "ko_parameter_name": "숏 기간"
+        },
+        {
+          "en_parameter_name": "signal line period",
+          "ko_parameter_name": "시그널 라인 기간"
+        }
+      ],
+      "parameters": {
+        "long period": 20,
+        "short period": 5,
+        "signal line period": 5
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Stochastic",
+    "ko_name": "스토캐스틱",
+    "alias": "Stochastic",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "k",
+          "ko_parameter_name": "k"
+        },
+        {
+          "en_parameter_name": "d",
+          "ko_parameter_name": "d"
+        },
+        {
+          "en_parameter_name": "smooth",
+          "ko_parameter_name": "smooth"
+        }
+      ],
+      "parameters": {
+        "k": 14,
+        "d": 3,
+        "smooth": 3
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Stochastic RSI",
+    "ko_name": "스토캐스틱 RSI",
+    "alias": "StochasticRSI",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "k",
+          "ko_parameter_name": "k"
+        },
+        {
+          "en_parameter_name": "d",
+          "ko_parameter_name": "d"
+        },
+        {
+          "en_parameter_name": "rsi length",
+          "ko_parameter_name": "rsi 길이"
+        },
+        {
+          "en_parameter_name": "stochastic length",
+          "ko_parameter_name": "stochastic 길이"
+        },
+        {
+          "en_parameter_name": "rsi source",
+          "ko_parameter_name": "rsi 소스"
+        }
+      ],
+      "parameters": {
+        "k": 3,
+        "d": 3,
+        "rsi length": 14,
+        "stochastic length": 14,
+        "rsi source": "close"
+      },
+      "rsi source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": true,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Triple EMA",
+    "ko_name": "트리플 EMA",
+    "alias": "TripleEMA",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        }
+      ],
+      "parameters": {
+        "length": 9
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "TRIX",
+    "ko_name": "트릭스",
+    "alias": "Trix",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        }
+      ],
+      "parameters": {
+        "length": 18
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Ultimate Oscillator",
+    "ko_name": "얼티밋 오실레이터",
+    "alias": "UltimateOsc",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length1",
+          "ko_parameter_name": "길이1"
+        },
+        {
+          "en_parameter_name": "length2",
+          "ko_parameter_name": "길이2"
+        },
+        {
+          "en_parameter_name": "length3",
+          "ko_parameter_name": "길이3"
+        }
+      ],
+      "parameters": {
+        "length1": 7,
+        "length2": 14,
+        "length3": 28
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Volatility Stop",
+    "ko_name": "변동성 정지",
+    "alias": "VSTOP",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        },
+        {
+          "en_parameter_name": "multiplier",
+          "ko_parameter_name": "멀티플라이어"
+        }
+      ],
+      "parameters": {
+        "length": 20,
+        "source": "close",
+        "multiplier": 2
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Volume",
+    "ko_name": "거래량",
+    "alias": "Volume",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "ma length",
+          "ko_parameter_name": "이동평균 길이"
+        }
+      ],
+      "parameters": {
+        "ma length": 20
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "VWAP",
+    "ko_name": "VWAP",
+    "alias": "VWAP",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "anchor period",
+          "ko_parameter_name": "앵커 기간"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        }
+      ],
+      "parameters": {
+        "anchor period": "Session",
+        "source": "hlc3"
+      },
+      "anchor period_available": [
+        {
+          "value": "Session",
+          "text": "Session (세션)"
+        },
+        {
+          "value": "Week",
+          "text": "Week (주)"
+        },
+        {
+          "value": "Month",
+          "text": "Month (달)"
+        },
+        {
+          "value": "Year",
+          "text": "Year (년)"
+        },
+        {
+          "value": "Decade",
+          "text": "Decade (10년)"
+        },
+        {
+          "value": "Century",
+          "text": "Century (세기)"
+        }
+      ],
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "VWMA",
+    "ko_name": "VWMA",
+    "alias": "MAVolumeWeighted",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        }
+      ],
+      "parameters": {
+        "length": 20,
+        "source": "close"
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Williams %R",
+    "ko_name": "윌리엄스 %R",
+    "alias": "WilliamR",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "length",
+          "ko_parameter_name": "길이"
+        },
+        {
+          "en_parameter_name": "source",
+          "ko_parameter_name": "소스"
+        }
+      ],
+      "parameters": {
+        "length": 14,
+        "source": "close"
+      },
+      "source_available": [
+        {
+          "value": "open",
+          "text": "시가"
+        },
+        {
+          "value": "high",
+          "text": "고가"
+        },
+        {
+          "value": "low",
+          "text": "저가"
+        },
+        {
+          "value": "close",
+          "text": "종가"
+        },
+        {
+          "value": "hl2",
+          "text": "hl2"
+        },
+        {
+          "value": "hlc3",
+          "text": "hlc3"
+        },
+        {
+          "value": "ohlc4",
+          "text": "ohlc4"
+        },
+        {
+          "value": "hlcc4",
+          "text": "hlcc4"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Williams Alligator",
+    "ko_name": "윌리엄스 엘리게이터",
+    "alias": "WilliamsAlligator",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "jaw length",
+          "ko_parameter_name": "jaw 길이"
+        },
+        {
+          "en_parameter_name": "teeth length",
+          "ko_parameter_name": "teeth 길이"
+        },
+        {
+          "en_parameter_name": "lips length",
+          "ko_parameter_name": "lips 길이"
+        }
+      ],
+      "parameters": {
+        "jaw length": 13,
+        "teeth length": 8,
+        "lips length": 5
+      }
+    },
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Williams Fractal",
+    "ko_name": "윌리엄스 프랙탈",
+    "alias": "WilliamsFractal",
+    "inputs": false,
+    "is_show": false,
+    "is_setting_open": false
+  },
+  {
+    "en_name": "Zig Zag",
+    "ko_name": "지그재그",
+    "alias": "ZigZag",
+    "inputs": {
+      "parameter_name_list": [
+        {
+          "en_parameter_name": "deviation (%)",
+          "ko_parameter_name": "편차 (%)"
+        },
+        {
+          "en_parameter_name": "depth",
+          "ko_parameter_name": "깊이"
+        },
+        {
+          "en_parameter_name": "extend to last bar",
+          "ko_parameter_name": "마지막 바까지 확장"
+        }
+      ],
+      "parameters": {
+        "deviation (%)": 3,
+        "depth": 10,
+        "extend to last bar": true
+      },
+      "extend to last bar_available": [
+        {
+          "value": true,
+          "text": "True (참)"
+        },
+        {
+          "value": false,
+          "text": "False (거짓)"
+        }
+      ]
+    },
+    "is_show": false,
+    "is_setting_open": false
+  }
+]
